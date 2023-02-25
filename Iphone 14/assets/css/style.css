@@ -1,0 +1,240 @@
+@import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+* {
+	-webkit-tap-highlight-color : transparent;
+	color: white;
+	 -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #f7f7f7;
+}
+
+
+#app {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+.iphone {
+    width: 25rem;
+    background-color: transparent;
+    height: 51rem;
+    border: solid 2px #3a3a3a;
+    border-radius: 35px;
+    box-shadow: inset 0px 0px 0px 10px black;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+div#iphone {
+    margin: 15px;
+    background: transparent;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    height: 85%;
+    background: transparent;
+}
+
+
+.top__nav {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    font-family: 'SF Pro Display', sans-serif;
+}
+
+button.center__black.assets__top__content {
+    width: 45%;
+    height: 25px;
+    border-radius: 100px;
+    border: none;
+    background: black;
+    outline: none;
+}
+
+.assets__top__content {
+    color: white;
+    margin: 10px;
+}
+
+.assets__top {
+    display: inline-flex;
+    width: calc(100% - 10%);
+    align-items: center;
+    justify-content: flex-start;
+    gap: 18px;
+}
+
+.top__icon {
+	width: 9%;
+	font-size: 14px;
+}
+.applications {
+	height: 90%;
+}
+
+.application {
+    width: 16%;
+    display: inline-block;
+    margin: 15px;
+    text-align: center;
+    font-size: 12px;
+    font-family: arial;
+    font-weight: 500;
+    height: 120px;
+}
+
+
+.application img {
+    width: -webkit-fill-available;
+    height: auto;
+}
+
+.application h4 {
+	color: white;
+	width: 100%;
+	font-family: 'SF Pro Display', sans-serif;
+	font-size: 12px;
+}
+
+
+.bottome__nav {
+    width: 90%;
+    background: #ffffff52;
+    margin-left: 5%;
+    height: 9%;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.bottom__icon {
+    width: 4rem;
+    display: inline-block;
+}
+
+.bottom__icon img {
+	width: -webkit-fill-available
+}
+
+
+.call__page {
+    width: 25rem;
+    height: 51rem;
+    position: absolute;
+    background: #ffffff;
+    border-radius: 35px;
+    display: none;
+}
+
+.call__buttons {
+    width: -webkit-fill-available;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bottom__call__icon {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.bottom__call__icon,p {
+	color: gray;
+	font-size: 15px;
+	font-family: 'SF Pro Display', sans-serif;
+}
+
+.bottom__call__icon i {
+	color: gray;
+	font-size: 25px;
+}
+
+.active__icon {
+	color: #0476ff !important;
+}
+
+.call__buttons__row {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5%;
+}
+
+button.call__button {
+    width: 75px;
+    height: 75px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    margin: 5px;
+    background: #e5e5e5;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button.call__button.call__icon__button {
+    background: #34c759;
+    font-size: 25px;
+}
+
+.pageAni {
+	animation: pageAni 0.4s 1;
+	display: block;
+}
+
+.pageAniClose {
+	align-items: pageAniClose 0.4s 1;
+	display: none;
+}
+
+@keyframes pageAni {
+	from {
+		transform: scale(0.7);
+	}
+	to {
+		transform: scale(1);
+	}
+}
+
+@keyframes pageAniClose {
+	from {
+		transform: scale(1);
+	}
+	to {
+		transform: scale(0.7);
+	}
+}
+
+
+
+@media only screen and (max-width: 705px){
+	.iphone {
+		display: none;
+	}
+
+}
+

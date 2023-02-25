@@ -1,0 +1,55 @@
+var array_apps = [
+
+"
+
+	<div class='application'>
+		<img src='assets/src/icons/social/facebook.webp'>
+		<h4>Facebook</h4>
+	</div>
+
+	<div class='application'>
+		<img src='assets/src/icons/social/twitter.png' style='width: 65px;'>
+		<h4>Twitter</h4>
+	</div>
+
+	<div class='application'>
+		<img src='assets/src/icons/clock.png' style='width: 65px;'>
+		<h4>Time</h4>
+	</div>
+
+	<div class='application'>
+		<img src='assets/src/icons/notes.png'>
+		<h4>Notes</h4>
+	</div>
+
+<div class='application'>
+		<img src='assets/src/icons/gallery.jpg'>
+		<h4>Photos</h4>
+	</div>
+
+",
+"
+
+
+	<div class='application'>
+		<img src='assets/src/icons/mail.webp' style='width: 65px;'>
+		<h4>Mail</h4>
+	</div>
+
+	<div class='application'>
+		<img src='assets/src/icons/maps.png'>
+		<h4>Maps</h4>
+	</div>
+
+	<div class='application'>
+		<img src='assets/src/icons/settings.webp' style='width: 65px;'>
+		<h4>Settings</h4>
+	</div>
+
+
+
+"
+
+
+
+];
